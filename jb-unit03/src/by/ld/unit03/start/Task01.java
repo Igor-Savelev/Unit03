@@ -1,6 +1,6 @@
 package by.ld.unit03.start;
 
-//Напишите консольное приложение – конвертер валют. 
+//ГЌГ ГЇГЁГёГЁГІГҐ ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГҐ ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГҐ вЂ“ ГЄГ®Г­ГўГҐГ°ГІГҐГ° ГўГ Г«ГѕГІ. 
 
 import java.util.Scanner;
 
@@ -8,11 +8,11 @@ public class Task01 {
 	public static void main(String arg[]) {
 		Scanner sca = new Scanner(System.in);
 		
-		System.out.print("Введите сумму: ");
+		System.out.print("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГіГ¬Г¬Гі: ");
 		double a = sca.nextDouble();
 		
 		Scanner scb = new Scanner(System.in);
-		System.out.print("Введите валюту rub, eur или dollar: ");
+		System.out.print("Г‚ГўГҐГ¤ГЁГІГҐ ГўГ Г«ГѕГІГі rub, eur ГЁГ«ГЁ dollar: ");
 		String b = scb.nextLine();
 		
 		String rub = "rub";
@@ -24,33 +24,33 @@ public class Task01 {
 		
 		if(b.equals(rub)) {
 				x = a / 71.43;
-				System.out.println("Сумма по курсу доллара = " + x);
+				System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі Г¤Г®Г«Г«Г Г°Г  = " + x);
 				y= a / 80.60;
-				System.out.println("Сумма по курсу евро = " + y);
+				System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі ГҐГўГ°Г® = " + y);
 			} else {
 				if(b.equals(eur)) {
 					x = a * 80.60;
-					System.out.println("Сумма по курсу рубля = " + x);
+					System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі Г°ГіГЎГ«Гї = " + x);
 					
 					y= a * 1.13;
-					System.out.println("Сумма по курсу доллара = " + y);
+					System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі Г¤Г®Г«Г«Г Г°Г  = " + y);
 				}	
 			 else {
 				if(b.equals(dollar)) {
 			x = a / 1.13;
-			System.out.println("Сумма по курсу евро = " + x);
+			System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі ГҐГўГ°Г® = " + x);
 			
 			y= a * 71.43;
-			System.out.println("Сумма по курсу рублях = " + y);
+			System.out.println("Г‘ГіГ¬Г¬Г  ГЇГ® ГЄГіГ°Г±Гі Г°ГіГЎГ«ГїГµ = " + y);
 		
 			} else {
-		System.out.println("Ошибка ввода валюты! Пожалуйста перезапустите конвертер.");
+		System.out.println("ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  ГўГ Г«ГѕГІГ»! ГЏГ®Г¦Г Г«ГіГ©Г±ГІГ  ГЇГҐГ°ГҐГ§Г ГЇГіГ±ГІГЁГІГҐ ГЄГ®Г­ГўГҐГ°ГІГҐГ°.");
 	}	
 }
 }
 	}
 }
-	
+// Р·Р°РґР°РЅРёРµ РјРѕРґСѓР»СЏ 3 Р·Р°С‡С‚РµРЅРѕ
 	
 	
 	
